@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8A9E8871A827DDC0071A27D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A9E8861A827DDC0071A27D /* main.m */; };
+		F8A9E88A1A827DDC0071A27D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A9E8891A827DDC0071A27D /* AppDelegate.m */; };
+		F8A9E88D1A827DDC0071A27D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A9E88C1A827DDC0071A27D /* ViewController.m */; };
+		F8A9E8901A827DDC0071A27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A9E88E1A827DDC0071A27D /* Main.storyboard */; };
+		F8A9E8921A827DDC0071A27D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A9E8911A827DDC0071A27D /* Images.xcassets */; };
+		F8A9E8951A827DDC0071A27D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A9E8931A827DDC0071A27D /* LaunchScreen.xib */; };
+		F8A9E8A11A827DDC0071A27D /* WKInterfaceLabelColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A9E8A01A827DDC0071A27D /* WKInterfaceLabelColorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8A9E89B1A827DDC0071A27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8A9E8791A827DDC0071A27D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8A9E8801A827DDC0071A27D;
+			remoteInfo = WKInterfaceLabelColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8A9E8811A827DDC0071A27D /* WKInterfaceLabelColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKInterfaceLabelColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A9E8851A827DDC0071A27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A9E8861A827DDC0071A27D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8A9E8881A827DDC0071A27D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8A9E8891A827DDC0071A27D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8A9E88B1A827DDC0071A27D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8A9E88C1A827DDC0071A27D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8A9E88F1A827DDC0071A27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8A9E8911A827DDC0071A27D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8A9E8941A827DDC0071A27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F8A9E89A1A827DDC0071A27D /* WKInterfaceLabelColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKInterfaceLabelColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A9E89F1A827DDC0071A27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A9E8A01A827DDC0071A27D /* WKInterfaceLabelColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKInterfaceLabelColorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8A9E87E1A827DDC0071A27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A9E8971A827DDC0071A27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8A9E8781A827DDC0071A27D = {
+			isa = PBXGroup;
+			children = (
+				F8A9E8831A827DDC0071A27D /* WKInterfaceLabelColor */,
+				F8A9E89D1A827DDC0071A27D /* WKInterfaceLabelColorTests */,
+				F8A9E8821A827DDC0071A27D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8A9E8821A827DDC0071A27D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8A9E8811A827DDC0071A27D /* WKInterfaceLabelColor.app */,
+				F8A9E89A1A827DDC0071A27D /* WKInterfaceLabelColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8A9E8831A827DDC0071A27D /* WKInterfaceLabelColor */ = {
+			isa = PBXGroup;
+			children = (
+				F8A9E8881A827DDC0071A27D /* AppDelegate.h */,
+				F8A9E8891A827DDC0071A27D /* AppDelegate.m */,
+				F8A9E88B1A827DDC0071A27D /* ViewController.h */,
+				F8A9E88C1A827DDC0071A27D /* ViewController.m */,
+				F8A9E88E1A827DDC0071A27D /* Main.storyboard */,
+				F8A9E8911A827DDC0071A27D /* Images.xcassets */,
+				F8A9E8931A827DDC0071A27D /* LaunchScreen.xib */,
+				F8A9E8841A827DDC0071A27D /* Supporting Files */,
+			);
+			path = WKInterfaceLabelColor;
+			sourceTree = "<group>";
+		};
+		F8A9E8841A827DDC0071A27D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A9E8851A827DDC0071A27D /* Info.plist */,
+				F8A9E8861A827DDC0071A27D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8A9E89D1A827DDC0071A27D /* WKInterfaceLabelColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8A9E8A01A827DDC0071A27D /* WKInterfaceLabelColorTests.m */,
+				F8A9E89E1A827DDC0071A27D /* Supporting Files */,
+			);
+			path = WKInterfaceLabelColorTests;
+			sourceTree = "<group>";
+		};
+		F8A9E89E1A827DDC0071A27D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A9E89F1A827DDC0071A27D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8A9E8801A827DDC0071A27D /* WKInterfaceLabelColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A9E8A41A827DDC0071A27D /* Build configuration list for PBXNativeTarget "WKInterfaceLabelColor" */;
+			buildPhases = (
+				F8A9E87D1A827DDC0071A27D /* Sources */,
+				F8A9E87E1A827DDC0071A27D /* Frameworks */,
+				F8A9E87F1A827DDC0071A27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKInterfaceLabelColor;
+			productName = WKInterfaceLabelColor;
+			productReference = F8A9E8811A827DDC0071A27D /* WKInterfaceLabelColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8A9E8991A827DDC0071A27D /* WKInterfaceLabelColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A9E8A71A827DDC0071A27D /* Build configuration list for PBXNativeTarget "WKInterfaceLabelColorTests" */;
+			buildPhases = (
+				F8A9E8961A827DDC0071A27D /* Sources */,
+				F8A9E8971A827DDC0071A27D /* Frameworks */,
+				F8A9E8981A827DDC0071A27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8A9E89C1A827DDC0071A27D /* PBXTargetDependency */,
+			);
+			name = WKInterfaceLabelColorTests;
+			productName = WKInterfaceLabelColorTests;
+			productReference = F8A9E89A1A827DDC0071A27D /* WKInterfaceLabelColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8A9E8791A827DDC0071A27D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Radar;
+				TargetAttributes = {
+					F8A9E8801A827DDC0071A27D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F8A9E8991A827DDC0071A27D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F8A9E8801A827DDC0071A27D;
+					};
+				};
+			};
+			buildConfigurationList = F8A9E87C1A827DDC0071A27D /* Build configuration list for PBXProject "WKInterfaceLabelColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8A9E8781A827DDC0071A27D;
+			productRefGroup = F8A9E8821A827DDC0071A27D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8A9E8801A827DDC0071A27D /* WKInterfaceLabelColor */,
+				F8A9E8991A827DDC0071A27D /* WKInterfaceLabelColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8A9E87F1A827DDC0071A27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A9E8901A827DDC0071A27D /* Main.storyboard in Resources */,
+				F8A9E8951A827DDC0071A27D /* LaunchScreen.xib in Resources */,
+				F8A9E8921A827DDC0071A27D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A9E8981A827DDC0071A27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8A9E87D1A827DDC0071A27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A9E88D1A827DDC0071A27D /* ViewController.m in Sources */,
+				F8A9E88A1A827DDC0071A27D /* AppDelegate.m in Sources */,
+				F8A9E8871A827DDC0071A27D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A9E8961A827DDC0071A27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A9E8A11A827DDC0071A27D /* WKInterfaceLabelColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8A9E89C1A827DDC0071A27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8A9E8801A827DDC0071A27D /* WKInterfaceLabelColor */;
+			targetProxy = F8A9E89B1A827DDC0071A27D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8A9E88E1A827DDC0071A27D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A9E88F1A827DDC0071A27D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8A9E8931A827DDC0071A27D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A9E8941A827DDC0071A27D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8A9E8A21A827DDC0071A27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8A9E8A31A827DDC0071A27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8A9E8A51A827DDC0071A27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKInterfaceLabelColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8A9E8A61A827DDC0071A27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKInterfaceLabelColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8A9E8A81A827DDC0071A27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WKInterfaceLabelColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKInterfaceLabelColor.app/WKInterfaceLabelColor";
+			};
+			name = Debug;
+		};
+		F8A9E8A91A827DDC0071A27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WKInterfaceLabelColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKInterfaceLabelColor.app/WKInterfaceLabelColor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8A9E87C1A827DDC0071A27D /* Build configuration list for PBXProject "WKInterfaceLabelColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A9E8A21A827DDC0071A27D /* Debug */,
+				F8A9E8A31A827DDC0071A27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A9E8A41A827DDC0071A27D /* Build configuration list for PBXNativeTarget "WKInterfaceLabelColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A9E8A51A827DDC0071A27D /* Debug */,
+				F8A9E8A61A827DDC0071A27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8A9E8A71A827DDC0071A27D /* Build configuration list for PBXNativeTarget "WKInterfaceLabelColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A9E8A81A827DDC0071A27D /* Debug */,
+				F8A9E8A91A827DDC0071A27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8A9E8791A827DDC0071A27D /* Project object */;
+}
