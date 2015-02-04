@@ -16,6 +16,8 @@
 
 @implementation MYInterfaceController
 
+#pragma mark - WKInterfaceController
+
 - (void)awakeWithContext:(id)context
 {
     [super awakeWithContext:context];
@@ -33,6 +35,27 @@
     [super didDeactivate];
 }
 
+#pragma mark - IBAction Methods
+
+- (IBAction)didTapRedButton
+{
+    [self.myLabel setTextColor:[UIColor redColor]];
+}
+
+- (IBAction)didTapBlueButton
+{
+    [self.myLabel setTextColor:[UIColor blueColor]];
+}
+
+- (IBAction)didTapYellowButton
+{
+    [self.myLabel setTextColor:[UIColor yellowColor]];
+}
+
+- (IBAction)didTapWhiteButton
+{
+    [self.myLabel setTextColor:[UIColor whiteColor]];
+}
 @end
 
 

@@ -13,7 +13,37 @@
                         <label alignment="left" text="Label" id="c0P-hk-hGk">
                             <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </label>
+                        <button width="1" alignment="left" title="Red" id="iH3-CH-2qj">
+                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="didTapRedButton" destination="AgC-eL-Hgc" id="BcI-7Q-9an"/>
+                            </connections>
+                        </button>
                     </items>
+                    <menu key="menu" id="NSz-kM-Tdx">
+                        <items>
+                            <menuItem title="Red" icon="accept" id="Ftf-by-d1n">
+                                <connections>
+                                    <action selector="didTapRedButton" destination="AgC-eL-Hgc" id="bRw-dB-bSG"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Blue" icon="add" id="QpI-YY-0Yb">
+                                <connections>
+                                    <action selector="didTapBlueButton" destination="AgC-eL-Hgc" id="LpI-9S-jKj"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Yellow" icon="block" id="QVt-jT-J2O">
+                                <connections>
+                                    <action selector="didTapYellowButton" destination="AgC-eL-Hgc" id="syQ-1L-snO"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="White" icon="decline" id="ZCZ-WW-ISQ">
+                                <connections>
+                                    <action selector="didTapWhiteButton" destination="AgC-eL-Hgc" id="W5u-wa-3wF"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                     <connections>
                         <outlet property="myLabel" destination="c0P-hk-hGk" id="9ub-st-As1"/>
                     </connections>
