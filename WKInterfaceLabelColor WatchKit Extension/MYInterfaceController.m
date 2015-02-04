@@ -10,6 +10,8 @@
 
 @interface MYInterfaceController ()
 
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *myLabel;
+
 @end
 
 @implementation MYInterfaceController
