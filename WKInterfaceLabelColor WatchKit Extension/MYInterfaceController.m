@@ -19,6 +19,8 @@
 - (void)awakeWithContext:(id)context
 {
     [super awakeWithContext:context];
+
+    [self.myLabel setTextColor:[UIColor yellowColor]];
 }
 
 - (void)willActivate
